@@ -84,6 +84,7 @@ Frontend: erros podem ser visualizados no console do navegador.
 Backend: logs são exibidos no terminal durante a execução.
 
 Banco de Dados: pode ser monitorado usando ferramentas como pgAdmin ou DBeaver.
+
 ---
 
 👨‍🏫 Projeto Acadêmico
