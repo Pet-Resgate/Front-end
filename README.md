@@ -88,6 +88,7 @@ Banco de Dados: pode ser monitorado usando ferramentas como pgAdmin ou DBeaver.
 ---
 
 👨‍🏫 Projeto Acadêmico
+
 Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Fullstack.
 
 Equipe:
