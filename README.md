@@ -109,7 +109,7 @@ GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
 
 ## 📚 Informações Acadêmicas
 
-Projeto desenvolvido para a disciplina de **Desenvolvimento Fullstack**.
+Projeto desenvolvido para a disciplina de **Frameworks Full Stack**.
 
 **Aluno e RA:** 
 ```
