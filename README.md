@@ -50,23 +50,24 @@ Dentro do diretório `backend`, siga os passos abaixo:
 ```bash
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
 
 2. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
-
+```
 3. Configure o arquivo .env com os dados do banco:
 ```env
 DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
 SECRET_KEY=sua_chave_secreta
 DEBUG=True
-
+```
 4. Execute as migrações e inicie o servidor:
 ```bash
 alembic upgrade head
 flask run
-
+```
 O backend estará disponível em http://localhost:8000
 
 
@@ -75,7 +76,7 @@ O backend estará disponível em http://localhost:8000
 ```sql
 CREATE USER usuario WITH PASSWORD 'senha';
 GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
-
+```
 
 🔍 Monitoramento e Debug
 Frontend: erros podem ser visualizados no console do navegador.
