@@ -1,55 +1,60 @@
-# Front-end
+# 🐾 Pet Resgate - Aplicação Fullstack (React + FastAPI + PostgreSQL)
 
-# Iniciando com Aplicação Fullstack - Pet Resgate (React + Python + PostgreSQL)
+Este projeto foi desenvolvido com **Create React App** no frontend, **FastAPI (Python)** no backend e **PostgreSQL** como banco de dados.
 
-Este projeto foi criado com o Create React App para o frontend, com backend em Python (Flask) e banco de dados PostgreSQL.
+---
 
-## Scripts Disponíveis
+## 📁 Estrutura do Projeto
 
-Na raiz do projeto, você encontrará duas pastas principais: `frontend/` e `backend/`.
+```
+projeto/
+├── frontend/    # Interface do usuário em React
+├── backend/     # Serviço de API em Python (FastAPI)
+```
 
 ---
 
 ## 📦 Frontend (React)
 
-Dentro do diretório `frontend`, você pode executar:
+Acesse o diretório `frontend`:
 
-### `npm start`
+```bash
+cd frontend
+```
 
-Executa a aplicação React em modo de desenvolvimento.  
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+### Scripts disponíveis
 
-A página será recarregada automaticamente ao salvar alterações.  
-Você também verá erros de lint no console, se houver.
+- `npm start`  
+  Executa a aplicação React em modo de desenvolvimento. Acesse em [http://localhost:3000](http://localhost:3000).
 
-### `npm test`
+- `npm test`  
+  Inicia os testes em modo interativo.
 
-Inicia o test runner no modo interativo.  
-Veja mais na seção sobre [testes](https://facebook.github.io/create-react-app/docs/running-tests).
+- `npm run build`  
+  Compila o projeto para produção.
 
-### `npm run build`
+- `npm run eject`  
+  Remove a configuração padrão. **Atenção: ação irreversível!**
 
-Compila o app para produção na pasta `build`.  
-O React será empacotado no modo de produção com otimizações de desempenho.
-
-### `npm run eject`
-
-**Atenção: esta é uma operação irreversível. Uma vez feito o eject, não há como voltar atrás!**  
-Use apenas se quiser controle total sobre as configurações (Webpack, Babel, ESLint, etc).
-
-Mais informações na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
+Mais detalhes na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ---
 
-## ⚙️ Backend (Python)
+## ⚙️ Backend (FastAPI - Python)
 
-Dentro do diretório `backend`, siga os passos abaixo:
+Acesse o diretório `backend`:
 
-### 1. Crie um ambiente virtual:
+```bash
+cd backend
+```
+
+### Passos de configuração
+
+1. Crie um ambiente virtual:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
 2. Instale as dependências:
@@ -57,40 +62,56 @@ source venv/bin/activate  # No Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-3. Configure o arquivo .env com os dados do banco:
+
+3. Crie um arquivo `.env`:
+
 ```env
 DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
 SECRET_KEY=sua_chave_secreta
 DEBUG=True
 ```
-4. Execute as migrações e inicie o servidor:
+
+4. Rode as migrações e inicie o servidor:
+
 ```bash
 alembic upgrade head
-flask run
+uvicorn main:app --reload
 ```
-O backend estará disponível em http://localhost:8000
 
+A API estará disponível em [http://localhost:8000](http://localhost:8000)
 
-(Opcional) Crie um usuário e dê permissões:
+---
+
+## 🗃️ Banco de Dados (PostgreSQL)
+
+### Criação do banco
+
+```sql
+CREATE DATABASE nome_do_banco;
+```
+
+### (Opcional) Criar usuário e permissões
 
 ```sql
 CREATE USER usuario WITH PASSWORD 'senha';
 GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
 ```
 
-## 🔍 Monitoramento e Debug
-Frontend: erros podem ser visualizados no console do navegador.
+---
 
-Backend: logs são exibidos no terminal durante a execução.
+## 🧪 Monitoramento e Debug
 
-Banco de Dados: pode ser monitorado usando ferramentas como pgAdmin ou DBeaver.
+- **Frontend:** console do navegador.
+- **Backend:** logs no terminal.
+- **Banco:** ferramentas como **pgAdmin** ou **DBeaver**.
 
+---
 
-## 👨‍🏫 Projeto Acadêmico
+## 📚 Informações Acadêmicas
 
-Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Fullstack.
+Projeto desenvolvido para a disciplina de **Desenvolvimento Fullstack**.
 
-### Equipe:
+**Aluno e RA:** 
 
 Breno Henrique - RA:2303046
 
@@ -104,6 +125,7 @@ Sophia Albuquerque - RA: 2302129
 
 Vithor Nelson - RA: 2302465
 
-Professor: Odair Gabriel da Silva
+**Professor:** Odair Gabriel da Silva
 
-Instituição: Faculdade Impacta
+**Instituição:** Faculdade Impacta
+
