@@ -112,18 +112,14 @@ GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
 Projeto desenvolvido para a disciplina de **Desenvolvimento Fullstack**.
 
 **Aluno e RA:** 
-
+```
 Breno Henrique - RA:2303046
-
 Jasmin Shadday - RA:2303142
-
 Nicolly Sampaio - RA: 2302304
-
 Pedro Henrique - RA: 2302841
-
 Sophia Albuquerque - RA: 2302129
-
 Vithor Nelson - RA: 2302465
+```
 
 **Professor:** Odair Gabriel da Silva
 
