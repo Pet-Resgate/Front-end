@@ -78,7 +78,7 @@ CREATE USER usuario WITH PASSWORD 'senha';
 GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
 ```
 
-#🔍 Monitoramento e Debug
+# 🔍 Monitoramento e Debug
 Frontend: erros podem ser visualizados no console do navegador.
 
 Backend: logs são exibidos no terminal durante a execução.
@@ -87,7 +87,7 @@ Banco de Dados: pode ser monitorado usando ferramentas como pgAdmin ou DBeaver.
 
 ---
 
-#👨‍🏫 Projeto Acadêmico
+# 👨‍🏫 Projeto Acadêmico
 
 Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Fullstack.
 
