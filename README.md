@@ -85,7 +85,6 @@ Backend: logs são exibidos no terminal durante a execução.
 
 Banco de Dados: pode ser monitorado usando ferramentas como pgAdmin ou DBeaver.
 
----
 
 ## 👨‍🏫 Projeto Acadêmico
 
@@ -94,17 +93,11 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Fullst
 ### Equipe:
 
 Breno Henrique - RA:2303046
-
 Jasmin Shadday - RA:2303142
-
 Nicolly Sampaio - RA: 2302304
-
 Pedro Henrique - RA: 2302841
-
 Sophia Albuquerque - RA: 2302129
-
 Vithor Nelson - RA: 2302465
 
 Professor: Odair Gabriel da Silva
-
 Instituição: Faculdade Impacta
