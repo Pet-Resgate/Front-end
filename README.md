@@ -111,7 +111,8 @@ GRANT ALL PRIVILEGES ON DATABASE nome_do_banco TO usuario;
 
 Projeto desenvolvido para a disciplina de **Frameworks Full Stack**.
 
-**Aluno e RA:** 
+**Aluno e RA:**
+
 ```
 Breno Henrique - RA:2303046
 Jasmin Shadday - RA:2303142
@@ -124,4 +125,3 @@ Vithor Nelson - RA: 2302465
 **Professor:** Odair Gabriel da Silva
 
 **Instituição:** Faculdade Impacta
-
