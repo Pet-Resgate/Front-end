@@ -1,7 +1,8 @@
 .link {
-    color: var(--branco);
-    font-size: 18px;
-    font-weight: 400;
-    padding: 1em;
-    text-decoration: none;
+  color: var(--cinza);
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0 1em;
+  text-decoration: none;
+  font-family: Jomhuria, serif;
 }

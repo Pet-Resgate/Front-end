@@ -1,0 +1,10 @@
+.carousel {
+  margin: 1rem 0;
+  height: 350px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  z-index: 10;
+}
