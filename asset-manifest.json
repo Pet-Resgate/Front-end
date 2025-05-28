@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Front-end/static/css/main.8b7f9c1d.css",
-    "main.js": "/Front-end/static/js/main.c148befe.js",
-    "static/media/logo.png": "/Front-end/static/media/logo.0f3a2a6171182be4355d.png",
-    "static/media/icon-impacta.png": "/Front-end/static/media/icon-impacta.5342b51dcc7fdeaeddf1.png",
-    "index.html": "/Front-end/index.html",
-    "main.8b7f9c1d.css.map": "/Front-end/static/css/main.8b7f9c1d.css.map",
-    "main.c148befe.js.map": "/Front-end/static/js/main.c148befe.js.map"
+    "main.css": "/pet-resgate/static/css/main.8b7f9c1d.css",
+    "main.js": "/pet-resgate/static/js/main.f0757eac.js",
+    "static/media/logo.png": "/pet-resgate/static/media/logo.0f3a2a6171182be4355d.png",
+    "static/media/icon-impacta.png": "/pet-resgate/static/media/icon-impacta.5342b51dcc7fdeaeddf1.png",
+    "index.html": "/pet-resgate/index.html",
+    "main.8b7f9c1d.css.map": "/pet-resgate/static/css/main.8b7f9c1d.css.map",
+    "main.f0757eac.js.map": "/pet-resgate/static/js/main.f0757eac.js.map"
   },
   "entrypoints": [
     "static/css/main.8b7f9c1d.css",
-    "static/js/main.c148befe.js"
+    "static/js/main.f0757eac.js"
   ]
 }
