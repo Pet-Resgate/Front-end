@@ -1,24 +1,22 @@
-import { Link } from "react-router-dom";
-import logo from './logo.png';
-import styles from './Cabecalho.module.css';
-import CabecalhoLink from "components/CabecalhoLink";
+import styles from "./Cabecalho.module.css";
+import CabecalhoLink from "Components/CabecalhoLink";
 
 function Cabecalho() {
-    return (
-        <header className={styles.cabecalho}>
-            <Link to="./">
-                <img src={logo} alt="Logo do cinetag"></img>
-            </Link>
-            <nav>
-                <CabecalhoLink url="./">
-                    Home
-                </CabecalhoLink>
-                <CabecalhoLink url="./Favoritos">
-                    Favoritos
-                </CabecalhoLink>
-            </nav>
-        </header>
-    )
+  return (
+    <header className={styles.cabecalho}>
+      <h2 className={styles.headerTitle}>Pet Resgate</h2>
+      <div className={styles.divider}></div>
+      <nav>
+        <CabecalhoLink url="./">Home</CabecalhoLink>
+        <CabecalhoLink url="./Galeria">Adote um Pet</CabecalhoLink>
+        <CabecalhoLink url="./">Resgatar Animal</CabecalhoLink>
+        <CabecalhoLink url="./">Blog / Dicas</CabecalhoLink>
+        <CabecalhoLink url="./">Sobre o Projeto</CabecalhoLink>
+        <CabecalhoLink url="./">Fale Conosco</CabecalhoLink>
+        <CabecalhoLink url="./Favoritos">Favoritos</CabecalhoLink>
+      </nav>
+    </header>
+  );
 }
 
 export default Cabecalho;

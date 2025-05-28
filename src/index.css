@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+
 :root {
-  --fonte: 'Montserrat', sans-serif;
-  --branco: #FFFFFF;
+  --fonte: "Roboto", sans-serif;
+  --branco: #ffffff;
   --preto: #000000;
-  --cinza: #E2E2E2;
+  --cinza: #4a4a4a;
+  --azul_principal: #4a90e2;
+  --amarelo_principal: #ffd166;
+  --amarelo_secundario: #fff2cc;
+  --marrom: #b88b68;
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -14,6 +26,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
