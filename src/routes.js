@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pet-resgate">
       <Routes>
         <Route path="/" element={<PaginaBase />}>
           <Route index element={<Inicio />}></Route>
