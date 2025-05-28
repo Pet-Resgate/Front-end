@@ -1,28 +1,41 @@
-.container {
-    padding: 0 0 1em 0;
-    margin-top: .5em;
-    width: 282px;
-    background-color: var(--cinza);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.card {
+  display: flex;
+  background-color: var(--bege);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 500px;
 }
 
-.capa {
-    width: 100%;
+.imagem {
+  width: 130px;
+  height: 130px;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
-.container h2,
+.texto {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nome {
+  color: #397cd4;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
 .favoritar {
-    padding: 0 1em;
-}
-
-.favoritar {
-    width: 25px;
-}
-
-.link {
-    text-decoration: none;
-    color: var(--preto);
-    text-align: left;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: var(--azul-principal);
 }

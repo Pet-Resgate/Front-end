@@ -1,26 +1,50 @@
 [
-    {
-        "id": 1,
-        "titulo": "O labirinto do Logcat",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
-        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
-    },
-    {
-        "id": 2,
-        "titulo": "Um componente no espaço",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
-        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
-    },
-    {
-        "id": 3,
-        "titulo": "O poderoso JavaScript",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
-        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
-    },
-    {
-        "id": 4,
-        "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
-        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
-    }
+  {
+    "id": 1,
+    "nome": "Theo",
+    "imagem": "assets/pets/theo.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos)."
+  },
+  {
+    "id": 2,
+    "nome": "Kael",
+    "imagem": "assets/pets/kael.png",
+    "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio."
+  },
+  {
+    "id": 3,
+    "nome": "Cacau",
+    "imagem": "assets/pets/cacau.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos)."
+  },
+  {
+    "id": 4,
+    "nome": "Juno",
+    "imagem": "assets/pets/juno.png",
+    "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio."
+  },
+  {
+    "id": 5,
+    "nome": "Marieta",
+    "imagem": "assets/pets/marieta.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos)."
+  },
+  {
+    "id": 6,
+    "nome": "Blue",
+    "imagem": "assets/pets/blue.png",
+    "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio."
+  },
+  {
+    "id": 7,
+    "nome": "Fred",
+    "imagem": "assets/pets/fred.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos)."
+  },
+  {
+    "id": 8,
+    "nome": "Frajola",
+    "imagem": "assets/pets/frajola.png",
+    "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio."
+  }
 ]
