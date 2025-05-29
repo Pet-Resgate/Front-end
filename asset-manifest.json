@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/pet-resgate/static/css/main.8b7f9c1d.css",
-    "main.js": "/pet-resgate/static/js/main.f0757eac.js",
+    "main.css": "/pet-resgate/static/css/main.82711287.css",
+    "main.js": "/pet-resgate/static/js/main.a0d0d7dd.js",
     "static/media/logo.png": "/pet-resgate/static/media/logo.0f3a2a6171182be4355d.png",
+    "static/media/faisca.png": "/pet-resgate/static/media/faisca.52235f18fffdb7e21d4a.png",
+    "static/media/tony.png": "/pet-resgate/static/media/tony.df41538f63dcac6fd5bc.png",
+    "static/media/maya.png": "/pet-resgate/static/media/maya.21416d50f1bff79b88e7.png",
+    "static/media/safira.png": "/pet-resgate/static/media/safira.c388d0c49355f0757522.png",
+    "static/media/frajola.png": "/pet-resgate/static/media/frajola.a4eeaa0c15eee49b4643.png",
+    "static/media/annie.png": "/pet-resgate/static/media/annie.d4f89a16a00445861192.png",
+    "static/media/juno.png": "/pet-resgate/static/media/juno.ac157b5f3ec8961a1d43.png",
+    "static/media/kael.png": "/pet-resgate/static/media/kael.f9c48e9c7633f9080425.png",
+    "static/media/fred.png": "/pet-resgate/static/media/fred.10eb32603049ce2d9777.png",
+    "static/media/thor.png": "/pet-resgate/static/media/thor.4f52791585617f671f88.png",
     "static/media/icon-impacta.png": "/pet-resgate/static/media/icon-impacta.5342b51dcc7fdeaeddf1.png",
+    "static/media/marieta.png": "/pet-resgate/static/media/marieta.3de5bf1f6fb245691e9f.png",
+    "static/media/theo.png": "/pet-resgate/static/media/theo.3d7c1cc1191b1e266a8d.png",
+    "static/media/blue.png": "/pet-resgate/static/media/blue.06153ff499230b34ab3f.png",
+    "static/media/cacau.png": "/pet-resgate/static/media/cacau.550e47a789136fe1e333.png",
+    "static/media/brincalhao.svg": "/pet-resgate/static/media/brincalhao.2fe54cf199fc07bfa0dfd10d103b3783.svg",
+    "static/media/sociavel.svg": "/pet-resgate/static/media/sociavel.27df4b0123f6be2cdd1e831f05e62b66.svg",
     "index.html": "/pet-resgate/index.html",
-    "main.8b7f9c1d.css.map": "/pet-resgate/static/css/main.8b7f9c1d.css.map",
-    "main.f0757eac.js.map": "/pet-resgate/static/js/main.f0757eac.js.map"
+    "static/media/carinhoso.svg": "/pet-resgate/static/media/carinhoso.0e1a35c7aa11637b0f057b505834bb5a.svg",
+    "main.82711287.css.map": "/pet-resgate/static/css/main.82711287.css.map",
+    "main.a0d0d7dd.js.map": "/pet-resgate/static/js/main.a0d0d7dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b7f9c1d.css",
-    "static/js/main.f0757eac.js"
+    "static/css/main.82711287.css",
+    "static/js/main.a0d0d7dd.js"
   ]
 }
