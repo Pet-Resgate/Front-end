@@ -1,5 +1,5 @@
 import styles from "./Cabecalho.module.css";
-import CabecalhoLink from "Components/CabecalhoLink";
+import CabecalhoLink from "components/CabecalhoLink";
 
 function Cabecalho() {
   return (
@@ -11,7 +11,7 @@ function Cabecalho() {
         <CabecalhoLink url="./Galeria">Adote um Pet</CabecalhoLink>
         <CabecalhoLink url="./">Resgatar Animal</CabecalhoLink>
         <CabecalhoLink url="./">Blog / Dicas</CabecalhoLink>
-        <CabecalhoLink url="./">Sobre o Projeto</CabecalhoLink>
+        <CabecalhoLink url="./sobre">Sobre o Projeto</CabecalhoLink>
         <CabecalhoLink url="./">Fale Conosco</CabecalhoLink>
         <CabecalhoLink url="./Favoritos">Favoritos</CabecalhoLink>
       </nav>

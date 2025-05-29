@@ -1,6 +1,6 @@
 import React from "react";
-import Titulo from "Components/Titulo";
-import Card from "Components/Card";
+import Titulo from "components/Titulo";
+import Card from "components/Card";
 import styles from "./Galeria.module.css";
 import pets from "json/db.json";
 

@@ -5,6 +5,7 @@ import PaginaBase from "pages/PaginaBase";
 import Galeria from "pages/Galeria";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PetDetalhes from "pages/PetDetalhes";
+import SobreProjeto from "pages/SobreProjeto";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
           <Route path="favoritos" element={<Favoritos />}></Route>
           <Route path="pet/:id" element={<PetDetalhes />}></Route>
           <Route path="*" element={<NaoEncontrada />}></Route>
+          <Route path="sobre" element={<SobreProjeto />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
