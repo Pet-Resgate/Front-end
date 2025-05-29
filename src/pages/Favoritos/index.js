@@ -1,6 +1,6 @@
-import Banner from "Components/Banner";
-import Card from "Components/Card";
-import Titulo from "Components/Titulo";
+import Banner from "components/Banner";
+import Card from "components/Card";
+import Titulo from "components/Titulo";
 import { useFavoritoContext } from "contextos/Favoritos";
 import styles from "./Favoritos.module.css";
 

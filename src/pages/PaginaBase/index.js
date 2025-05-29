@@ -1,6 +1,6 @@
-import Cabecalho from "Components/Cabecalho";
-import Container from "Components/container";
-import Rodape from "Components/Rodape";
+import Cabecalho from "components/Cabecalho";
+import Container from "components/Container";
+import Rodape from "components/Rodape";
 import FavoritosProvider from "contextos/Favoritos";
 import { Outlet } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import pets from "json/db.json";
-import Titulo from "Components/Titulo";
+import Titulo from "components/Titulo";
 import styles from "./PetDetalhes.module.css";
 import brincalhaoIcon from "assets/brincalhao.svg";
 import carinhosoIcon from "assets/carinhoso.svg";

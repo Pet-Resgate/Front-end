@@ -1,6 +1,6 @@
-import Banner from "Components/Banner";
-import Titulo from "Components/Titulo";
-import Carousel from "Components/Carousel";
+import Banner from "components/Banner";
+import Titulo from "components/Titulo";
+import Carousel from "components/Carousel";
 import logo from "./logo.png";
 
 function Inicio() {
