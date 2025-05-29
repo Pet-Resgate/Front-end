@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.imagem {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.descricao {
+  font-family: Robote, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cinza);
+  flex: 1;
+  margin-top: 0;
+}
+
+.renderNivelFotos {
+  border-radius: 8;
+  padding: 8;
+  width: 80;
+  height: 80;
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  transition: "background 0.2s";
+}
+
+.botaoAdotar {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul_principal);
+  color: var(--branco);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  margin: 2rem 0;
+}
