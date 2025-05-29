@@ -12,7 +12,7 @@ function Cabecalho() {
         <CabecalhoLink url="./">Resgatar Animal</CabecalhoLink>
         <CabecalhoLink url="./">Blog / Dicas</CabecalhoLink>
         <CabecalhoLink url="./sobre">Sobre o Projeto</CabecalhoLink>
-        <CabecalhoLink url="./">Fale Conosco</CabecalhoLink>
+        <CabecalhoLink url="./ajuda">Fale Conosco</CabecalhoLink>
         <CabecalhoLink url="./Favoritos">Favoritos</CabecalhoLink>
       </nav>
     </header>
