@@ -16,12 +16,24 @@ function Galeria() {
   return (
     <>
       <Titulo>
-        <h1>Adote um Pet</h1>
+        <h1>Conheça gatinhos</h1>
       </Titulo>
       <div className={styles.container}>
-        {pets.map((pet) => (
-          <Card key={pet.id} {...pet} imagem={getImagePath(pet.imagem)} />
-        ))}
+        {pets
+          .filter((pet) => pet.tipo === "gato")
+          .map((pet) => (
+            <Card key={pet.id} {...pet} imagem={getImagePath(pet.imagem)} />
+          ))}
+      </div>
+      <Titulo>
+        <h1>Conheça cachorrinhos</h1>
+      </Titulo>
+      <div className={styles.container}>
+        {pets
+          .filter((pet) => pet.tipo === "cachorro")
+          .map((pet) => (
+            <Card key={pet.id} {...pet} imagem={getImagePath(pet.imagem)} />
+          ))}
       </div>
     </>
   );

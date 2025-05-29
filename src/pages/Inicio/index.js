@@ -1,8 +1,5 @@
 import Banner from "Components/Banner";
-import Card from "Components/Card";
 import Titulo from "Components/Titulo";
-import videos from "json/db.json";
-import styles from "./Inicio.module.css";
 import Carousel from "Components/Carousel";
 import logo from "./logo.png";
 
