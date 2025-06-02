@@ -1,4 +1,62 @@
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  padding: 0 1em 1em 1em;
+}
+
+.divider {
+  width: 100%;
+  height: 5px;
+  background-color: var(--marrom);
+  margin: 0.2em 0;
+}
+
+.testimonial {
+  display: flex;
+  padding: 0 5rem;
+  gap: 5rem;
+}
+
+.title {
+  font-family: Jomhuria, serif;
+  color: var(--azul_principal);
+  font-size: 52px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.paragrafo {
+  text-align: center;
+  padding: 0 2rem 2rem 2rem;
+  margin: 0;
+}
+
+.containerAjuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.paragrafoAjuda {
+  margin: 0;
+}
+
+.buttonAjuda {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul_principal);
+  color: var(--branco);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  margin: 0.5rem 0;
 }

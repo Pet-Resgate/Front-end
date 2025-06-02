@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff4d6;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+.info {
+  text-align: center;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descricao {
+  text-align: start;
+}
+
+.nome {
+  color: #3b3b3b;
+  font-size: 1.25rem;
+  margin: 0.25rem 0;
+}
+
+.idade,
+.sexo {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.afinidade {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.iconeAfinidade {
+  width: 20px;
+  height: 20px;
+}
