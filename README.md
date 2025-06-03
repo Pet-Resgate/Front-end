@@ -19,7 +19,7 @@ projeto/
 Acesse o diretório `frontend`:
 
 ```bash
-cd frontend
+cd pet-resgate
 ```
 
 ### Scripts disponíveis
