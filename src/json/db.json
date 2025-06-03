@@ -13,7 +13,7 @@
     "tipo": "gato"
   },
   {
-    "id": 1,
+    "id": 2,
     "nome": "Frederico",
     "imagem": "assets/pets/frederico.png",
     "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
@@ -26,7 +26,7 @@
     "tipo": "gato"
   },
   {
-    "id": 2,
+    "id": 11,
     "nome": "Kael",
     "imagem": "assets/pets/kael.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -36,19 +36,6 @@
     "nivel_sociavel": "3",
     "idade": "7 meses",
     "sexo": "femea",
-    "tipo": "gato"
-  },
-  {
-    "id": 3,
-    "nome": "Cacau",
-    "imagem": "assets/pets/cacau.png",
-    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
-    "descricao_full": "Tenho cerca de 7 meses e sou um gatinho cheio de energia, charme e personalidade.Sou atlético, adoro correr, pular, brincar com tudo que se mexe e, claro, amassar pãozinho como um verdadeiro chef felino! Me dou super bem com outros gatos e gosto bastante de carinho — mas olha, vou ser honesto: quando eu canso, aviso... às vezes com uma patadinha (ou arranhão leve, vai). Nada pessoal, é só meu jeitinho de pedir um espaço. Fui encontrado na rua com a minha mãezinha por uma moça muito gentil. Ela ficou com a minha mãe, mas infelizmente não podia me adotar também. Agora, estou aqui, procurando um lar cheio de amor, diversão e respeito. Se você procura um companheiro animado, carinhoso e que vai deixar seu dia mais leve (e talvez seus móveis um pouquinho mais peludos), acho que podemos ser ótimos juntos.",
-    "nivel_carinhoso": "1",
-    "nivel_brincalhao": "1",
-    "nivel_sociavel": "1",
-    "idade": "7 meses",
-    "sexo": "macho",
     "tipo": "gato"
   },
   {
@@ -66,6 +53,19 @@
   },
   {
     "id": 5,
+    "nome": "Cacau",
+    "imagem": "assets/pets/cacau.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
+    "descricao_full": "Tenho cerca de 7 meses e sou um gatinho cheio de energia, charme e personalidade.Sou atlético, adoro correr, pular, brincar com tudo que se mexe e, claro, amassar pãozinho como um verdadeiro chef felino! Me dou super bem com outros gatos e gosto bastante de carinho — mas olha, vou ser honesto: quando eu canso, aviso... às vezes com uma patadinha (ou arranhão leve, vai). Nada pessoal, é só meu jeitinho de pedir um espaço. Fui encontrado na rua com a minha mãezinha por uma moça muito gentil. Ela ficou com a minha mãe, mas infelizmente não podia me adotar também. Agora, estou aqui, procurando um lar cheio de amor, diversão e respeito. Se você procura um companheiro animado, carinhoso e que vai deixar seu dia mais leve (e talvez seus móveis um pouquinho mais peludos), acho que podemos ser ótimos juntos.",
+    "nivel_carinhoso": "1",
+    "nivel_brincalhao": "1",
+    "nivel_sociavel": "1",
+    "idade": "7 meses",
+    "sexo": "macho",
+    "tipo": "gato"
+  },
+  {
+    "id": 6,
     "nome": "Marieta",
     "imagem": "assets/pets/marieta.png",
     "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
@@ -78,7 +78,7 @@
     "tipo": "gato"
   },
   {
-    "id": 6,
+    "id": 7,
     "nome": "Blue",
     "imagem": "assets/pets/blue.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -91,7 +91,7 @@
     "tipo": "gato"
   },
   {
-    "id": 7,
+    "id": 8,
     "nome": "Fred",
     "imagem": "assets/pets/fred.png",
     "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
@@ -104,7 +104,7 @@
     "tipo": "gato"
   },
   {
-    "id": 8,
+    "id": 9,
     "nome": "Frajola",
     "imagem": "assets/pets/frajola.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -117,7 +117,7 @@
     "tipo": "gato"
   },
   {
-    "id": 9,
+    "id": 10,
     "nome": "Annie",
     "imagem": "assets/pets/annie.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -130,7 +130,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 10,
+    "id": 3,
     "nome": "Faísca",
     "imagem": "assets/pets/faisca.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -143,7 +143,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 11,
+    "id": 12,
     "nome": "Maya",
     "imagem": "assets/pets/maya.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -156,7 +156,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 12,
+    "id": 13,
     "nome": "Thor",
     "imagem": "assets/pets/thor.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -169,7 +169,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 13,
+    "id": 14,
     "nome": "Tony",
     "imagem": "assets/pets/tony.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
@@ -182,7 +182,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 14,
+    "id": 15,
     "nome": "Safira",
     "imagem": "assets/pets/safira.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
