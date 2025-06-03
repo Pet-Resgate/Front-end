@@ -13,6 +13,19 @@
     "tipo": "gato"
   },
   {
+    "id": 1,
+    "nome": "Frederico",
+    "imagem": "assets/pets/frederico.png",
+    "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
+    "descricao_full": "Tenho cerca de 7 meses e sou um gatinho cheio de energia, charme e personalidade.Sou atlético, adoro correr, pular, brincar com tudo que se mexe e, claro, amassar pãozinho como um verdadeiro chef felino! Me dou super bem com outros gatos e gosto bastante de carinho — mas olha, vou ser honesto: quando eu canso, aviso... às vezes com uma patadinha (ou arranhão leve, vai). Nada pessoal, é só meu jeitinho de pedir um espaço. Fui encontrado na rua com a minha mãezinha por uma moça muito gentil. Ela ficou com a minha mãe, mas infelizmente não podia me adotar também. Agora, estou aqui, procurando um lar cheio de amor, diversão e respeito. Se você procura um companheiro animado, carinhoso e que vai deixar seu dia mais leve (e talvez seus móveis um pouquinho mais peludos), acho que podemos ser ótimos juntos.",
+    "nivel_carinhoso": "3",
+    "nivel_brincalhao": "3",
+    "nivel_sociavel": "1",
+    "idade": "5 anos",
+    "sexo": "macho",
+    "tipo": "gato"
+  },
+  {
     "id": 2,
     "nome": "Kael",
     "imagem": "assets/pets/kael.png",

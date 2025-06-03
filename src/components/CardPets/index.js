@@ -23,8 +23,8 @@ function renderNivelFotos(label, nivel) {
               src={categoriaIcone[label]}
               alt={label}
               style={{
-                width: 30,
-                height: 30,
+                width: 20,
+                height: 20,
                 objectFit: "contain",
                 borderRadius: 6,
                 opacity: 1,

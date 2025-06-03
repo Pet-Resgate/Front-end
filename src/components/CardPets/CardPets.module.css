@@ -10,10 +10,12 @@
 }
 
 .imagem {
-  width: 100%;
-  height: auto;
-  border-radius: 0.75rem;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
+  border-radius: 0.75rem;
+  display: block;
+  margin: 0 auto;
 }
 
 .info {
@@ -29,7 +31,7 @@
 
 .nome {
   color: #3b3b3b;
-  font-size: 1.25rem;
+  font-size: 17px;
   margin: 0.25rem 0;
 }
 

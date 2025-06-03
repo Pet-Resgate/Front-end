@@ -1,5 +1,4 @@
 import Cabecalho from "components/Cabecalho";
-import Container from "components/container";
 import Rodape from "components/Rodape";
 import FavoritosProvider from "contextos/Favoritos";
 import { Outlet } from "react-router-dom";
@@ -9,9 +8,7 @@ function PaginaBase() {
     <main>
       <Cabecalho />
       <FavoritosProvider>
-        <Container>
-          <Outlet />
-        </Container>
+        <Outlet />
       </FavoritosProvider>
       <Rodape />
     </main>

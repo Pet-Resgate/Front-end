@@ -1,23 +1,29 @@
-<svg width="105" height="106" viewBox="0 0 105 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-<ellipse cx="52.4987" cy="53.3627" rx="38.6544" ry="38.6544" transform="rotate(-28.8129 52.4987 53.3627)" fill="#D9D9D9"/>
-<path d="M44.7123 57.0126C55.0011 75.7179 51.3992 91.4656 51.3992 91.4656C52.3305 93.1591 28.9185 90.6971 18.6297 71.9918C8.34087 53.2865 18.7975 32.1949 19.729 33.8885C19.729 33.8885 34.4235 38.3073 44.7123 57.0126Z" fill="#4A90E2"/>
-<path d="M58.0302 47.2632C48.2389 28.2927 55.9121 15.3411 55.9121 15.3411C54.9801 13.647 75.5007 15.0909 87.2992 36.4263C97.2394 54.4013 85.0815 76.4981 84.195 74.7806C84.195 74.7806 67.8215 66.2336 58.0302 47.2632Z" fill="#4A90E2"/>
-<rect x="75.6357" y="73.6323" width="6.2857" height="3.08373" transform="rotate(-53.0557 75.6357 73.6323)" fill="white"/>
-<rect x="69.7217" y="67.3132" width="5.58155" height="3.08373" transform="rotate(-41.9836 69.7217 67.3132)" fill="white"/>
-<rect x="52.4431" y="38.0308" width="6.2857" height="3.08373" transform="rotate(-3.14965 52.4431 38.0308)" fill="white"/>
-<rect x="64.4236" y="62.0493" width="7.03734" height="3.33196" transform="rotate(-34.0068 64.4236 62.0493)" fill="white"/>
-<rect x="59.7427" y="55.1055" width="6.2857" height="3.21023" transform="rotate(-26.6478 59.7427 55.1055)" fill="white"/>
-<rect x="55.4395" y="47.0413" width="6.02096" height="3.08373" transform="rotate(-13.0887 55.4395 47.0413)" fill="white"/>
-<rect x="49.8459" y="29.9941" width="6.21006" height="3.08373" transform="rotate(1.96264 49.8459 29.9941)" fill="white"/>
-<rect x="50.0366" y="22.3934" width="6.57183" height="3.08373" transform="rotate(11.2848 50.0366 22.3934)" fill="white"/>
-<rect x="52.7056" y="15.9111" width="6.2857" height="3.08373" transform="rotate(9.10535 52.7056 15.9111)" fill="white"/>
-<rect width="5.75133" height="2.6023" transform="matrix(-0.977612 -0.210414 0.0721153 0.997396 54.2004 85.2805)" fill="white"/>
-<rect width="4.83694" height="2.75533" transform="matrix(-0.999504 -0.0315058 0.259099 0.965851 53.4124 76.4927)" fill="white"/>
-<rect width="5.02564" height="3.08163" transform="matrix(-0.713584 0.700569 0.72397 0.689831 39.9644 45.7551)" fill="white"/>
-<rect width="5.73271" height="3.08819" transform="matrix(-0.993753 0.111598 0.377052 0.926192 52.0317 68.6089)" fill="white"/>
-<rect width="5.02852" height="3.06127" transform="matrix(-0.967626 0.252389 0.474354 0.880334 49.5781 60.8779)" fill="white"/>
-<rect width="4.55547" height="3.04789" transform="matrix(-0.854435 0.519558 0.628526 0.777788 44.7397 53.1472)" fill="white"/>
-<rect width="5.11103" height="3.54952" transform="matrix(-0.624344 0.78115 0.767989 0.640463 34.021 40.4514)" fill="white"/>
-<rect width="4.7462" height="3.05701" transform="matrix(-0.441709 0.897158 0.839919 0.542712 28.3115 36.1802)" fill="white"/>
-<rect width="5.07923" height="3.03237" transform="matrix(-0.486023 0.873946 0.824057 0.566507 23.5061 32.8772)" fill="white"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 86" width="85" height="86">
+	<title>brincalhao</title>
+	<style>
+		.s0 { fill: #d9d9d9 } 
+		.s1 { fill: #4a90e2 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m61.1 76.2c-18.7 10.3-42.2 3.5-52.5-15.2-10.3-18.7-3.5-42.2 15.3-52.5 18.7-10.3 42.2-3.5 52.5 15.2 10.3 18.8 3.5 42.2-15.3 52.5z"/>
+	<path class="s1" d="m34.7 46c10.3 18.7 6.7 34.5 6.7 34.5 0.9 1.7-22.5-0.8-32.8-19.5-10.3-18.7 0.2-39.8 1.1-38.1 0 0 14.7 4.4 25 23.1z"/>
+	<path class="s1" d="m48 36.3c-9.8-19-2.1-32-2.1-32-0.9-1.7 19.6-0.2 31.4 21.1 9.9 18-2.2 40.1-3.1 38.4 0 0-16.4-8.6-26.2-27.5z"/>
+	<path fill-rule="evenodd" class="s2" d="m65.6 62.6l3.8-5 2.5 1.9-3.8 5z"/>
+	<path fill-rule="evenodd" class="s2" d="m59.7 56.3l4.2-3.7 2 2.3-4.1 3.7z"/>
+	<path fill-rule="evenodd" class="s2" d="m42.4 27l6.3-0.3 0.2 3.1-6.3 0.3z"/>
+	<path fill-rule="evenodd" class="s2" d="m54.4 51l5.9-3.9 1.8 2.8-5.8 3.9z"/>
+	<path fill-rule="evenodd" class="s2" d="m49.7 44.1l5.7-2.8 1.4 2.9-5.6 2.8z"/>
+	<path fill-rule="evenodd" class="s2" d="m45.4 36l5.9-1.3 0.7 3-5.9 1.3z"/>
+	<path fill-rule="evenodd" class="s2" d="m39.8 19l6.3 0.2-0.2 3.1-6.2-0.2z"/>
+	<path fill-rule="evenodd" class="s2" d="m40 11.4l6.5 1.3-0.6 3-6.5-1.3z"/>
+	<path fill-rule="evenodd" class="s2" d="m42.7 4.9l6.2 1-0.5 3.1-6.2-1z"/>
+	<path fill-rule="evenodd" class="s2" d="m44.2 74.3l-5.6-1.2 0.2 2.6 5.6 1.2z"/>
+	<path fill-rule="evenodd" class="s2" d="m43.4 65.5l-4.8-0.2 0.7 2.7 4.8 0.2z"/>
+	<path fill-rule="evenodd" class="s2" d="m30 34.8l-3.6 3.5 2.2 2.1 3.6-3.5z"/>
+	<path fill-rule="evenodd" class="s2" d="m42 57.6l-5.7 0.6 1.2 2.9 5.7-0.6z"/>
+	<path fill-rule="evenodd" class="s2" d="m39.6 49.9l-4.9 1.2 1.5 2.7 4.8-1.2z"/>
+	<path fill-rule="evenodd" class="s2" d="m34.7 42.1l-3.9 2.4 2 2.4 3.9-2.4z"/>
+	<path fill-rule="evenodd" class="s2" d="m24 29.5l-3.2 3.9 2.8 2.3 3.1-4z"/>
+	<path fill-rule="evenodd" class="s2" d="m18.3 25.2l-2.1 4.2 2.6 1.7 2.1-4.3z"/>
+	<path fill-rule="evenodd" class="s2" d="m13.5 21.9l-2.5 4.4 2.5 1.7 2.5-4.4z"/>
 </svg>

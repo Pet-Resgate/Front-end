@@ -1,6 +1,5 @@
 .container {
-  background-color: #fff8dc;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
@@ -13,14 +12,18 @@
   padding: 3rem 2rem;
   gap: 2rem;
   flex-grow: 1;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .formBox {
-  flex: 1;
+  flex: 1 1 350px;
   background-color: #fff3c4;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 280px;
+  max-width: 500px;
 }
 
 .title {
@@ -33,7 +36,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .form label {
@@ -58,24 +61,51 @@
 }
 
 .form button {
+  font-family: Jomhuria, serif;
+  font-weight: 400;
+  font-size: 30px;
   background-color: #4a90e2;
   color: white;
-  font-weight: bold;
   border: none;
-  padding: 0.8rem;
+  padding: 0.4rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .illustration {
-  flex: 1;
+  flex: 2 1 350px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .illustration img {
-  max-width: 90%;
+  max-width: 100%;
+  width: auto;
   height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .mainContent {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem 0.5rem;
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+
+  .formBox {
+    max-width: 100%;
+    min-width: 0;
+    padding: 1rem;
+  }
+
+  .illustration {
+    display: none;
+  }
 }

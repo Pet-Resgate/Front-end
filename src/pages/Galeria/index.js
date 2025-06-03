@@ -14,7 +14,7 @@ function getImagePath(imagem) {
 
 function Galeria() {
   return (
-    <>
+    <div className={styles.galeria}>
       <Titulo>
         <h1>Conheça gatinhos</h1>
       </Titulo>
@@ -35,7 +35,7 @@ function Galeria() {
             <Card key={pet.id} {...pet} imagem={getImagePath(pet.imagem)} />
           ))}
       </div>
-    </>
+    </div>
   );
 }
 
