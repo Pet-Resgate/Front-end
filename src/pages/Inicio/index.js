@@ -68,7 +68,7 @@ function Inicio() {
       </Titulo>
       <div className={styles.container}>
         {pets
-          .filter((pet) => pet.id <= 5)
+          .filter((pet) => pet.id <= 6)
           .map((pet) => (
             <CardPets
               key={pet.id}

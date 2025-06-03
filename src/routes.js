@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PetDetalhes from "pages/PetDetalhes";
 import SobreProjeto from "pages/SobreProjeto";
 import FaleConosco from "pages/FaleConosco";
+import Blog from "pages/Blog";
 
 function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ function AppRoutes() {
           <Route path="*" element={<NaoEncontrada />}></Route>
           <Route path="sobre" element={<SobreProjeto />}></Route>
           <Route path="ajuda" element={<FaleConosco />}></Route>
+          <Route path="blog" element={<Blog />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
