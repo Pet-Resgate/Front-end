@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-resgate/static/css/main.f2c3b677.css",
-    "main.js": "/pet-resgate/static/js/main.a6ac0399.js",
+    "main.js": "/pet-resgate/static/js/main.9b26c15b.js",
     "static/media/CachorroDeitado.jpg": "/pet-resgate/static/media/CachorroDeitado.2bb1608ee3d719309823.jpg",
     "static/media/GatoDeitado.jpg": "/pet-resgate/static/media/GatoDeitado.a4b52da8cac6f0384228.jpg",
     "static/media/CachorroCorrendo.jpg": "/pet-resgate/static/media/CachorroCorrendo.29233e8f284646e3df71.jpg",
@@ -35,10 +35,10 @@
     "index.html": "/pet-resgate/index.html",
     "static/media/carinhoso.svg": "/pet-resgate/static/media/carinhoso.0e1a35c7aa11637b0f057b505834bb5a.svg",
     "main.f2c3b677.css.map": "/pet-resgate/static/css/main.f2c3b677.css.map",
-    "main.a6ac0399.js.map": "/pet-resgate/static/js/main.a6ac0399.js.map"
+    "main.9b26c15b.js.map": "/pet-resgate/static/js/main.9b26c15b.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c3b677.css",
-    "static/js/main.a6ac0399.js"
+    "static/js/main.9b26c15b.js"
   ]
 }
