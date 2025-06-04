@@ -5,6 +5,7 @@ import L from "leaflet";
 import styles from "./Resgate.module.css";
 import "leaflet/dist/leaflet.css";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
+import Titulo from "components/Titulo";
 
 const LocationMarker = ({ setPosition }) => {
   useMapEvents({
@@ -41,7 +42,9 @@ function Resgate() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.title}>Cadastrar Animal Resgatado</h1>
+        <Titulo>
+          <h1>Cadastrar Animal Resgatado</h1>
+        </Titulo>
       </header>
 
       <form className={styles.form} onSubmit={handleSubmit}>
