@@ -1,4 +1,15 @@
 .container {
-    display: flex;
-    justify-content: space-around;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.mensagemVazia {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+  width: 100%;
 }

@@ -1,0 +1,71 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fffef5;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #4689e2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.subTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mapContainer {
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-color: #4689e2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #356bb0;
+}
