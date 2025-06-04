@@ -1,30 +1,29 @@
-import React from 'react';
-import './LoginScreen.css';
-import loginImage from '../../assets/Login-image.png'; // Verifique se o caminho está certo
-import { useNavigate } from 'react-router-dom'; // ✅ Importa o hook para navegação
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import loginImage from "../../assets/Login-image.png";
+import styles from "./Cadastro.module.css";
 
-function LoginScreen() {
-  const navigate = useNavigate(); // ✅ Hook de navegação
+function Cadastro() {
+  const navigate = useNavigate();
 
   const voltarParaHome = () => {
-    navigate('/'); // ✅ Vai para a página inicial
+    navigate("/");
   };
-
   return (
     <div className="login-container">
       <div className="login-left">
         <div className="login-box">
           <h2 className="project-title">Pet Resgata</h2>
-          <h1 className="login-title">Conecte-se</h1>
+          <h1 className="login-title">Cadastre-se</h1>
           <form className="login-form">
             <input type="email" placeholder="E-mail" />
             <input type="password" placeholder="Senha" />
-            <button type="submit">Logar</button>
+            <input type="password" placeholder="Confirme Senha" />
+            <button type="submit">Cadastrar</button>
           </form>
           <p className="register-text">
-            Não tem cadastro? <a href="/cadastro">cadastrar</a>
+            Já tem cadastro? <a href="/pet-resgate/login">Conecte-se</a>
           </p>
-          {/* ✅ Botão para voltar */}
           <button onClick={voltarParaHome} className="back-button">
             Voltar para a Home
           </button>
@@ -36,5 +35,4 @@ function LoginScreen() {
     </div>
   );
 }
-
-export default LoginScreen;
+export default Cadastro;
