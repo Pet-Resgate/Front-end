@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pet-resgate/static/css/main.e6c73292.css",
-    "main.js": "/pet-resgate/static/js/main.faf9d7e2.js",
+    "main.css": "/pet-resgate/static/css/main.635ee383.css",
+    "main.js": "/pet-resgate/static/js/main.b6f532d7.js",
     "static/media/CachorroDeitado.jpg": "/pet-resgate/static/media/CachorroDeitado.2bb1608ee3d719309823.jpg",
     "static/media/imagem2.png": "/pet-resgate/static/media/imagem2.9a439915e52d8cfd8574.png",
     "static/media/GatoDeitado.jpg": "/pet-resgate/static/media/GatoDeitado.a4b52da8cac6f0384228.jpg",
@@ -37,11 +37,11 @@
     "static/media/sociavel.svg": "/pet-resgate/static/media/sociavel.27df4b0123f6be2cdd1e831f05e62b66.svg",
     "index.html": "/pet-resgate/index.html",
     "static/media/carinhoso.svg": "/pet-resgate/static/media/carinhoso.0e1a35c7aa11637b0f057b505834bb5a.svg",
-    "main.e6c73292.css.map": "/pet-resgate/static/css/main.e6c73292.css.map",
-    "main.faf9d7e2.js.map": "/pet-resgate/static/js/main.faf9d7e2.js.map"
+    "main.635ee383.css.map": "/pet-resgate/static/css/main.635ee383.css.map",
+    "main.b6f532d7.js.map": "/pet-resgate/static/js/main.b6f532d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c73292.css",
-    "static/js/main.faf9d7e2.js"
+    "static/css/main.635ee383.css",
+    "static/js/main.b6f532d7.js"
   ]
 }
