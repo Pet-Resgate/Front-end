@@ -20,7 +20,7 @@ function AppRoutes() {
         <Route path="/" element={<PaginaBase />}>
           <Route index element={<Inicio />} />
           <Route path="cadastro" element={<Cadastro />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="login" element={<Login />} />
           <Route path="perfil" element={<Perfil />} />
           <Route path="favoritos" element={<Favoritos />} />
           <Route path="adote" element={<Galeria />} />
