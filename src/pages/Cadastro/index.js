@@ -147,7 +147,7 @@ function Cadastro() {
             <button type="submit">Cadastrar</button>
           </form>
           <p className="register-text">
-            Já tem cadastro? <a href="/pet-resgate/login">Conecte-se</a>
+            Já tem cadastro? <Link to="/login">Conecte-se</Link>
           </p>
           <button onClick={voltarParaHome} className="back-button">
             Voltar para a Home
