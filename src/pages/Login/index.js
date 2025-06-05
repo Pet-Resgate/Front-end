@@ -7,6 +7,7 @@ function Login() {
   const [email, setEmail] = React.useState("");
   const [senha, setSenha] = React.useState("");
   const [error, setError] = React.useState("");
+  const [loading, setLoading] = React.useState(false);
 
   const navigate = useNavigate();
 
@@ -14,20 +15,43 @@ function Login() {
     navigate("/");
   };
 
-  const handleLogin = (event) => {
+  const handleLogin = async (event) => {
     event.preventDefault();
+    setError("");
+    setLoading(true);
 
-    const usuarioFalso = {
-      email: "usuario@teste.com",
-      senha: "123456",
-      nome: "João da Silva",
-    };
+    const params = new URLSearchParams();
+    params.append("email", email);
+    params.append("senha", senha);
 
-    if (email === usuarioFalso.email && senha === usuarioFalso.senha) {
-      localStorage.setItem("usuarioLogado", JSON.stringify(usuarioFalso));
-      navigate("/perfil");
-    } else {
-      setError("E-mail ou senha inválidos.");
+    try {
+      const response = await fetch(
+        "https://web-production-8da63.up.railway.app/Usuario/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: params.toString(),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Erro ao fazer login");
+      }
+
+      const data = await response.json();
+
+      if (data && data.id_usuario) {
+        localStorage.setItem("usuarioLogado", JSON.stringify(data));
+        navigate("/perfil");
+      } else {
+        setError("Credenciais inválidas.");
+      }
+    } catch (err) {
+      setError("Erro ao tentar logar. Verifique suas credenciais.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -55,7 +79,9 @@ function Login() {
             {error && (
               <p style={{ color: "red", fontSize: "0.9rem" }}>{error}</p>
             )}
-            <button type="submit">Logar</button>
+            <button type="submit" disabled={loading}>
+              {loading ? "Entrando..." : "Logar"}
+            </button>
           </form>
           <p className="register-text">
             Não tem cadastro? <a href="/pet-resgate/cadastro">Cadastrar</a>
