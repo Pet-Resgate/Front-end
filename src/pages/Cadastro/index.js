@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import loginImage from "../../assets/Login-image.png";
 import styles from "./Cadastro.module.css";
 
