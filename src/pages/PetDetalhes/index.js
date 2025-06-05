@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
-import pets from "json/db.json";
+import { useEffect, useState } from "react";
 import Titulo from "components/Titulo";
+import Carregando from "components/Carregando";
 import styles from "./PetDetalhes.module.css";
 import brincalhaoIcon from "assets/brincalhao.svg";
 import carinhosoIcon from "assets/carinhoso.svg";
@@ -38,10 +39,38 @@ function renderNivelFotos(label, nivel) {
   );
 }
 
+function getImagePathPorPet(pet) {
+  try {
+    return require(`../../assets/pets/${pet.nome.toLowerCase()}.png`);
+  } catch {
+    return require("../../assets/pets/padrao.png");
+  }
+}
+
 function PetDetalhe() {
   const { id } = useParams();
-  const pet = pets.find((p) => String(p.id) === id);
+  const [pet, setPet] = useState(null);
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    async function fetchPet() {
+      try {
+        const response = await fetch(
+          `https://web-production-8da63.up.railway.app/Pet/${id}`
+        );
+        const data = await response.json();
+        setPet(data);
+      } catch (error) {
+        console.error("Erro ao buscar o pet:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchPet();
+  }, [id]);
+
+  if (loading) return <Carregando texto="Carregando detalhes do pet..." />;
   if (!pet) return <div>Pet não encontrado</div>;
 
   return (
@@ -51,26 +80,25 @@ function PetDetalhe() {
       </Titulo>
       <div className={styles.container}>
         <img
-          src={require(`../../${pet.imagem}`)}
+          src={getImagePathPorPet(pet)}
           alt={pet.nome}
           className={styles.imagem}
         />
         <div>
-          <p className={styles.descricao}>
-            {pet.descricao_full || pet.descricao}
-          </p>
+          <p className={styles.descricao}>{pet.descricao}</p>
           <div className={styles.info}>
             <div>
-              {renderNivelFotos("Carinhoso", Number(pet.nivel_carinhoso))}
-              {renderNivelFotos("Brincalhão", Number(pet.nivel_brincalhao))}
-              {renderNivelFotos("Sociável", Number(pet.nivel_sociavel))}
+              {renderNivelFotos("Carinhoso", Number(pet.carinhoso))}
+              {renderNivelFotos("Brincalhão", Number(pet.brinca))}
+              {renderNivelFotos("Sociável", Number(pet.sociavel))}
             </div>
             <div className={styles.informacoes}>
               <div>
                 <strong>Informações adicionais:</strong>
               </div>
               <p>
-                <strong>Idade:</strong> {pet.idade}
+                <strong>Idade:</strong> {pet.idade}{" "}
+                {Number(pet.idade) > 1 ? "anos" : "ano"}
               </p>
               <p>
                 <strong>Sexo:</strong> {pet.sexo}

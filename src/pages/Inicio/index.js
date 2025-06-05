@@ -1,22 +1,40 @@
-import React from "react";
-import Banner from "components/Banner";
+import React, { useEffect, useState } from "react";
 import Titulo from "components/Titulo";
 import Carousel from "components/Carousel";
 import logo from "./logo.png";
 import styles from "./Inicio.module.css";
 import CardPets from "components/CardPets";
-import HorizontalScroll from "components/HorizontalScroll";
-import pets from "json/db.json";
 
 function getImagePath(imagem) {
   try {
     return require(`../../${imagem}`);
   } catch {
-    return "";
+    return require("../../assets/pets/padrao.png");
   }
 }
 
 function Inicio() {
+  const [pets, setPets] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchPets() {
+      try {
+        const response = await fetch(
+          "https://web-production-8da63.up.railway.app/Pet/"
+        );
+        const data = await response.json();
+        setPets(data);
+      } catch (error) {
+        console.error("Erro ao buscar pets:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchPets();
+  }, []);
+
   return (
     <>
       <Carousel>
@@ -31,16 +49,35 @@ function Inicio() {
         >
           <img src={logo} alt="Logo do cinetag" height="100%"></img>
         </div>
-        <div style={{ height: "100%" }}>
-          <Banner imagem="home" />
-        </div>
         <div
           style={{
             backgroundColor: "var(--amarelo_principal)",
             height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
           }}
         >
-          Slide 3
+          <img
+            src={getImagePath("assets/imagem.png")}
+            alt="Imagem um"
+            height="100%"
+          ></img>
+        </div>
+        <div
+          style={{
+            backgroundColor: "#fcb61e",
+            height: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={getImagePath("assets/imagem2.png")}
+            alt="Imagem dois"
+            height="100%"
+          ></img>
         </div>
       </Carousel>
       <h1 className={styles.title}>Bem-vindo ao Pet Resgate</h1>
@@ -67,21 +104,30 @@ function Inicio() {
         <h1>Destaques de animais disponíveis</h1>
       </Titulo>
       <div className={styles.container}>
-        {pets
-          .filter((pet) => pet.id <= 6)
-          .map((pet) => (
-            <CardPets
-              key={pet.id}
-              id={pet.id}
-              nome={pet.nome}
-              idade={pet.idade}
-              sexo={pet.sexo}
-              imagem={getImagePath(pet.imagem)}
-              nivel_carinhoso={pet.nivel_carinhoso}
-              nivel_brincalhao={pet.nivel_brincalhao}
-              nivel_sociavel={pet.nivel_sociavel}
-            />
-          ))}
+        {loading ? (
+          <p>Carregando pets...</p>
+        ) : (
+          pets
+            .filter((pet) => pet.status !== "adotado")
+            .slice(0, 6)
+            .map((pet) => (
+              <CardPets
+                id={pet.id_pet}
+                nome={pet.nome}
+                idade={pet.idade}
+                sexo={pet.sexo}
+                imagem={getImagePath(
+                  `assets/pets/${pet.nome
+                    .normalize("NFD")
+                    .replace(/[\u0300-\u036f]/g, "")
+                    .toLowerCase()}.png`
+                )}
+                nivel_carinhoso={pet.carinhoso}
+                nivel_brincalhao={pet.brinca}
+                nivel_sociavel={pet.sociavel}
+              />
+            ))
+        )}
       </div>
       <div className={styles.divider}></div>
       <Titulo>

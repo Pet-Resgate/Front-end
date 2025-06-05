@@ -5,6 +5,8 @@ import styles from "./Perfil.module.css";
 function Perfil() {
   const navigate = useNavigate();
 
+  const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+
   const handleLogout = () => {
     localStorage.removeItem("usuarioLogado");
     navigate("/");
@@ -16,7 +18,9 @@ function Perfil() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.titulo}>Perfil do Usuário</h1>
+      <h1 className={styles.titulo}>
+        Olá, {usuarioLogado?.nome || "Usuário"}!
+      </h1>
 
       <div className={styles.botoes}>
         <button className={styles.botao} onClick={handleGoToFavoritos}>

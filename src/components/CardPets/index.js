@@ -67,7 +67,9 @@ function CardPets({
       <div className={styles.info}>
         <div className={styles.descricao}>
           <h2 className={styles.nome}>{nome}</h2>
-          <p className={styles.idade}>±{idade}</p>
+          <p className={styles.idade}>
+            ±{idade} {Number(idade) > 1 ? "anos" : "ano"}
+          </p>
           <p className={styles.sexo}>{sexo}</p>
         </div>
         <div>

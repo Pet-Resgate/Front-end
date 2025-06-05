@@ -4,14 +4,14 @@ import iconeFavoritar from "./favoritar.png";
 import iconeDesfavoritar from "./desfavoritar.png";
 import { useNavigate } from "react-router-dom";
 
-function Card({ id, nome, descricao, imagem }) {
+function Card({ id_pet, nome, descricao, imagem }) {
   const { favorito, adicionarFavorito } = useFavoritoContext();
-  const ehFavorito = favorito.some((fav) => fav.id === id);
+  const ehFavorito = favorito.some((fav) => fav.id === id_pet);
   const icone = !ehFavorito ? iconeFavoritar : iconeDesfavoritar;
   const navigate = useNavigate();
 
   function handleCardClick() {
-    navigate(`/pet/${id}`);
+    navigate(`/pet/${id_pet}`);
   }
 
   return (
@@ -30,7 +30,7 @@ function Card({ id, nome, descricao, imagem }) {
             className={styles.favoritar}
             onClick={(e) => {
               e.stopPropagation();
-              adicionarFavorito({ id, nome, descricao, imagem });
+              adicionarFavorito({ id_pet, nome, descricao, imagem });
             }}
           />
         </div>

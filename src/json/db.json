@@ -65,7 +65,7 @@
     "tipo": "gato"
   },
   {
-    "id": 6,
+    "id": 13,
     "nome": "Marieta",
     "imagem": "assets/pets/marieta.png",
     "descricao": "Tenho cerca de 7 meses, sou um gato brincalhão, atlético e adoro amassar pãozinho. Me dou bem com outros gatos e gosto de carinho (mas quando canso, dou meus avisos).",
@@ -156,7 +156,7 @@
     "tipo": "cachorro"
   },
   {
-    "id": 13,
+    "id": 6,
     "nome": "Thor",
     "imagem": "assets/pets/thor.png",
     "descricao": "Tenho cerca de 3 anos, sou uma fêmea tranquila  gosto de carinho e de momentos calmos, daqueles que a gente só quer deitar no sol e aproveitar o silêncio.",
