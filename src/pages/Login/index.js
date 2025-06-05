@@ -1,7 +1,7 @@
 import React from "react";
 import "./LoginScreen.css";
 import loginImage from "../../assets/Login-image.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
   const [email, setEmail] = React.useState("");
@@ -84,7 +84,7 @@ function Login() {
             </button>
           </form>
           <p className="register-text">
-            Não tem cadastro? <a href="/pet-resgate/cadastro">Cadastrar</a>
+            Não tem cadastro? <Link to="/cadastro">Cadastrar</Link>
           </p>
           <button onClick={voltarParaHome} className="back-button">
             Voltar para a Home

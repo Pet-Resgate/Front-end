@@ -1,6 +1,5 @@
 .login-container {
   display: flex;
-  height: 100vh;
   font-family: Arial, sans-serif;
 }
 
@@ -29,6 +28,7 @@
   width: 100%;
   max-width: 300px;
   text-align: center;
+  margin: 30px;
 }
 
 .project-title {
