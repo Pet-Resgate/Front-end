@@ -17,10 +17,6 @@ function Cadastro() {
 
   const navigate = useNavigate();
 
-  const voltarParaHome = () => {
-    navigate("/");
-  };
-
   const handleCadastro = async (e) => {
     e.preventDefault();
 
@@ -149,9 +145,6 @@ function Cadastro() {
           <p className="register-text">
             Já tem cadastro? <Link to="/login">Conecte-se</Link>
           </p>
-          <button onClick={voltarParaHome} className="back-button">
-            Voltar para a Home
-          </button>
         </div>
       </div>
       <div className="login-right">
