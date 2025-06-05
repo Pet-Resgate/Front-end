@@ -2,6 +2,9 @@
 
 Este projeto foi desenvolvido com **Create React App** no frontend, **FastAPI (Python)** no backend e **PostgreSQL** como banco de dados.
 
+link do site:
+https://pet-resgate.github.io/pet-resgate/
+
 ---
 
 ## 📁 Estrutura do Projeto
