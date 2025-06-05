@@ -11,10 +11,6 @@ function Login() {
 
   const navigate = useNavigate();
 
-  const voltarParaHome = () => {
-    navigate("/");
-  };
-
   const handleLogin = async (event) => {
     event.preventDefault();
     setError("");
@@ -86,9 +82,6 @@ function Login() {
           <p className="register-text">
             Não tem cadastro? <Link to="/cadastro">Cadastrar</Link>
           </p>
-          <button onClick={voltarParaHome} className="back-button">
-            Voltar para a Home
-          </button>
         </div>
       </div>
       <div className="login-right">
