@@ -1,10 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Perfil.module.css";
+import userIcon from "assets/user-placeholder.png";
 
 function Perfil() {
   const navigate = useNavigate();
-
   const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
 
   const handleLogout = () => {
@@ -12,24 +12,51 @@ function Perfil() {
     navigate("/");
   };
 
-  const handleGoToFavoritos = () => {
-    navigate("/favoritos");
-  };
-
   return (
     <div className={styles.container}>
-      <h1 className={styles.titulo}>
-        Olá, {usuarioLogado?.nome || "Usuário"}!
-      </h1>
+      <div className={styles.card}>
+        <div className={styles.fotoContainer}>
+          <img
+            src={userIcon}
+            alt="Foto do usuário"
+            className={styles.fotoUsuario}
+          />
+        </div>
 
-      <div className={styles.botoes}>
-        <button className={styles.botao} onClick={handleGoToFavoritos}>
-          Meus Favoritos
-        </button>
+        <h2 className={styles.nome}>{usuarioLogado?.nome || "Usuário"}</h2>
+        <p className={styles.email}>
+          {usuarioLogado?.email || "email@exemplo.com"}
+        </p>
 
-        <button className={styles.botaoLogout} onClick={handleLogout}>
-          Logout
-        </button>
+        <div className={styles.botoes}>
+          <button
+            onClick={() => navigate("/favoritos")}
+            className={styles.button}
+          >
+            ⭐ Meus Favoritos
+          </button>
+          <button
+            onClick={() => alert("Função ainda não disponível")}
+            className={styles.button}
+          >
+            🐾 Meus Pets
+          </button>
+          <button
+            onClick={() => alert("Função ainda não disponível")}
+            className={styles.button}
+          >
+            ✏️ Editar Perfil
+          </button>
+          <button
+            onClick={() => alert("Função ainda não disponível")}
+            className={styles.button}
+          >
+            ⚙️ Configurações
+          </button>
+          <button className={styles.logout} onClick={handleLogout}>
+            🚪 Logout
+          </button>
+        </div>
       </div>
     </div>
   );

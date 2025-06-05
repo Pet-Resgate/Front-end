@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Card({ id_pet, nome, descricao, imagem }) {
   const { favorito, adicionarFavorito } = useFavoritoContext();
-  const ehFavorito = favorito.some((fav) => fav.id === id_pet);
+  const ehFavorito = favorito.some((fav) => fav.id_pet === id_pet);
   const icone = !ehFavorito ? iconeFavoritar : iconeDesfavoritar;
   const navigate = useNavigate();
 
@@ -34,7 +34,7 @@ function Card({ id_pet, nome, descricao, imagem }) {
             }}
           />
         </div>
-        <p>{descricao}</p>
+        <p className={styles.descricao}>{descricao}</p>
       </div>
     </div>
   );
