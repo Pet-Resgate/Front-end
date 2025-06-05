@@ -83,12 +83,12 @@ function Cadastro() {
   };
 
   return (
-    <div className="login-container">
-      <div className="login-left">
-        <div className="login-box">
+    <div className={styles["cadastro-container"]}>
+      <div className={styles["cadastro-left"]}>
+        <div className={styles["cadastro-box"]}>
           <h2 className="project-title">Pet Resgata</h2>
-          <h1 className="login-title">Cadastre-se</h1>
-          <form className="login-form" onSubmit={handleCadastro}>
+          <h1 className={styles["cadastro-title"]}>Cadastre-se</h1>
+          <form className={styles["cadastro-form"]} onSubmit={handleCadastro}>
             <input
               type="text"
               placeholder="Nome"
@@ -142,12 +142,12 @@ function Cadastro() {
             {mensagem && <p style={{ color: "green" }}>{mensagem}</p>}
             <button type="submit">Cadastrar</button>
           </form>
-          <p className="register-text">
+          <p className={styles["register-text"]}>
             Já tem cadastro? <Link to="/login">Conecte-se</Link>
           </p>
         </div>
       </div>
-      <div className="login-right">
+      <div className={styles["cadastro-right"]}>
         <img src={loginImage} alt="Pets felizes" />
       </div>
     </div>

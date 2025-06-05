@@ -1,9 +1,9 @@
-.login-container {
+.cadastro-container {
   display: flex;
   font-family: Arial, sans-serif;
 }
 
-.login-left {
+.cadastro-left {
   flex: 1;
   display: flex;
   justify-content: right;
@@ -12,7 +12,7 @@
   background-color: #ffecc2;
 }
 
-.login-right {
+.cadastro-right {
   flex: 1;
   background: #ffecc2;
   display: flex;
@@ -21,7 +21,7 @@
   padding-left: 60px;
 }
 
-.login-box {
+.cadastro-box {
   background-color: white;
   padding: 30px;
   border-radius: 5px;
@@ -31,25 +31,19 @@
   margin: 30px;
 }
 
-.project-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-.login-title {
+.cadastro-title {
   font-size: 32px;
   color: #4a90e2;
   margin: 20px 0;
 }
 
-.login-form {
+.cadastro-form {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.login-form input {
+.cadastro-form input {
   margin-bottom: 15px;
   padding: 10px;
   font-size: 16px;
@@ -57,12 +51,12 @@
   border: 1px solid #ccc;
 }
 
-.login-form input:focus {
+.cadastro-form input:focus {
   border-color: #4a90e2;
   outline: none;
 }
 
-.login-form button {
+.cadastro-form button {
   padding: 10px;
   font-size: 18px;
   background-color: #4a90e2;
@@ -73,7 +67,7 @@
   transition: background-color 0.3s ease;
 }
 
-.login-form button:hover {
+.cadastro-form button:hover {
   background-color: #357abd;
 }
 
@@ -87,23 +81,22 @@
   text-decoration: none;
 }
 
-.login-right img {
+.cadastro-right img {
   width: 100%;
   max-width: 400px;
   border-radius: 12px;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
-  .login-container {
+  .cadastro-container {
     flex-direction: column;
   }
 
-  .login-right {
+  .cadastro-right {
     display: none;
   }
 
-  .login-box {
+  .cadastro-box {
     margin: 20px;
   }
 }
